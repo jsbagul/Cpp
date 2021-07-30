@@ -10,7 +10,4 @@ do
     cout<<i<<"welcome back CCP\n";
     i++;
 } while (i<5);
-
-
-
 }
