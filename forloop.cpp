@@ -2,13 +2,30 @@
 using namespace std;
 
 int main(){
-    int a;
-    cout<<"Enter a";
-    cin>>a;
-
-    for (int i=0;i<=a; i++)
+   int row;
+   int col;
+   cout<<"Enter row";
+   cin>>row;
+   cout<<"Enter column";
+   cin>>col;
+    for (int i=1;i<=row; i++)
     {
-        cout<<i<<"Hello world 10 time's\n";
+        for (int k =1; k <=col; k++)
+        { if (i==1||i==row||k==1||k==col)
+        {
+           cout<<"*";
+        }
+        else
+        {
+            cout<<" ";
+        }
+
+            
+        }
+    cout<<endl;
+        
+       
+       
     }
     
 }
